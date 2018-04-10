@@ -1,0 +1,20 @@
+{
+  "name": "autoupdater",
+  "version": "1.0.2",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "build --win",
+    "ship": "build --win -p always"
+  },
+  "repository": "https://github.com/amitpatil321/updater",
+  "author": "Amit Patil",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-builder": "^20.8.1"
+  },
+  "dependencies": {
+    "electron-updater": "^2.21.4"
+  }
+}
